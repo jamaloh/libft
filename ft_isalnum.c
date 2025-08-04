@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 11:54:40 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:47 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:58:13 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	if c is digit or alphabetical character, return 1 */
 
 #include "libft.h"
 

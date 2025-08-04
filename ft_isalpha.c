@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 11:56:35 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:49 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:58:10 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	if c is alphabetical character, return 1 */
 
 int	ft_isalpha(int c)
 {

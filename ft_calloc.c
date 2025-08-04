@@ -6,9 +6,13 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 11:31:51 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:46 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:51:06 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	allocate memory for count elements of specific size, initialize to zero */
+/*	point to memory and return pointer */
+/*	return NULL pointer in case of failed allocation */
 
 #include "libft.h"
 

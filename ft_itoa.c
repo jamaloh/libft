@@ -6,13 +6,17 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 14:04:36 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:54 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:17:45 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*	allocates memory and returns string representing integer received as an
+	argument */
+/*	negative numbers must be handled */
+
 #include "libft.h"
 
-static int	count_digits(int n)
+static int	count_digits(int n) /*	return count of digits in integer */
 {
 	int	i;
 
@@ -28,6 +32,9 @@ static int	count_digits(int n)
 	}
 	return (i);
 }
+
+/*	take least significant digit and promote to correct value */
+/*	skip that digit every loop */
 
 static char	*fill_res(int i, char *s, long int num)
 {

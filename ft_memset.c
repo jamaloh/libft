@@ -6,9 +6,12 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 14:08:27 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:17:17 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:31:58 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	for len elements of b, write bytes of c */
+/*	return b */
 
 #include "libft.h"
 

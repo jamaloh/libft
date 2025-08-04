@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 11:10:44 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 15:39:43 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:46:34 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	fill/overwrite n memory pointed to by s with zeros */
 
 #include "libft.h"
 

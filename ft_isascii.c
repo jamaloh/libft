@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 12:20:43 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:50 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:58:07 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	if c is ASCII value, return 1 */
 
 int	ft_isascii(int c)
 {

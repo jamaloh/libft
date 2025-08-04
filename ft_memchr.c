@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 12:34:41 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:37 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:20:50 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	for n elements: if s points to c, return first occurrence */
 
 #include "libft.h"
 

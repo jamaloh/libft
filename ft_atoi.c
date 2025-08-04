@@ -6,9 +6,15 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 10:19:48 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 20:08:08 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:02:44 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	convert str to int and return the int */
+/*	discard leading whitespace characters */
+/*	handle sign of string and return integer with corresponding sign */
+/*	for each digit in str; expand places of integer and assign value
+	until non-digit character reached */
 
 #include "libft.h"
 

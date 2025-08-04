@@ -6,9 +6,11 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 10:52:58 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:18:51 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 12:58:46 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	if c is digit, return 1 */
 
 int	ft_isdigit(int c)
 {

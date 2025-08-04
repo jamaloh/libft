@@ -6,9 +6,12 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 13:22:29 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 15:59:43 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:27:55 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	copy elements of src to dst until the nth element and return dst */
+/*	do not handle overlapping addresses */
 
 #include "libft.h"
 

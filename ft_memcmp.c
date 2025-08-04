@@ -6,9 +6,13 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 13:07:36 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/01 15:17:09 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 13:27:16 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	for n elements: find the first difference between corresponding elements */
+/*	if s1 >/< s2, return positive or negative value respectively */
+/*	if similar, return 0 */
 
 #include "libft.h"
 
