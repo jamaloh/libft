@@ -5,10 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/02 16:23:03 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 18:45:02 by jalosta-         ###   ########.fr       */
+/*   Created: 2025/08/04 13:50:01 by jalosta-          #+#    #+#             */
+/*   Updated: 2025/08/04 13:50:02 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	Adds the node ’new’ at the beginning of the list. */
 
 #include "libft.h"
 

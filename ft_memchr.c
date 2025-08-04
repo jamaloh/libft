@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 12:34:41 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 13:20:50 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/04 18:40:21 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,13 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int main(void)
+// {
+// 	char *ptr = "Hello, world!";
+// 	ptr = ft_memchr(ptr, 'w', 10);
+// 	printf("%s\n", ptr);
+// }

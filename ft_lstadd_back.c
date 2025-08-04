@@ -5,24 +5,20 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/02 18:11:17 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 19:21:34 by jalosta-         ###   ########.fr       */
+/*   Created: 2025/08/04 13:50:04 by jalosta-          #+#    #+#             */
+/*   Updated: 2025/08/04 15:31:24 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	Adds the node ’new’ at the end of the list. */
 
 #include "libft.h"
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list	*last;
-
 	if (!lst || !new)
 		return ;
-	if (*lst == NULL)
-	{
-		*lst = new;
-		return ;
-	}
-	last = ft_lstlast(*lst);
-	last->next = new;
+	ft_lstlast(*lst);
+	new->next = *lst;
+	*lst = new;
 }

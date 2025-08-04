@@ -5,10 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/02 18:59:07 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 20:09:00 by jalosta-         ###   ########.fr       */
+/*   Created: 2025/08/04 13:49:57 by jalosta-          #+#    #+#             */
+/*   Updated: 2025/08/04 18:44:45 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	Takes a node as parameter and frees its content
+ *	using the function ’del’. */
+/*	Free the node itself but does NOT free the next node. */
 
 #include "libft.h"
 

@@ -5,10 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/02 18:03:50 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/02 18:45:10 by jalosta-         ###   ########.fr       */
+/*   Created: 2025/08/04 13:49:52 by jalosta-          #+#    #+#             */
+/*   Updated: 2025/08/04 18:45:12 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	Returns the last node of the list. */
 
 #include "libft.h"
 

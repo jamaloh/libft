@@ -5,10 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/02 16:02:54 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 12:05:26 by jalosta-         ###   ########.fr       */
+/*   Created: 2025/08/04 13:47:11 by jalosta-          #+#    #+#             */
+/*   Updated: 2025/08/04 18:45:08 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*	Allocates memory (using malloc(3)) and returns a new node. */
+/*	The ’content’ member variable is
+ *	initialized with the given parameter ’content’. */
+/*	The variable ’next’ is initialized to NULL. */
 
 #include "libft.h"
 
@@ -16,6 +21,8 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
 
+	if (!content)
+		return (NULL);
 	node = malloc(sizeof(t_list));
 	if (!node)
 		return (NULL);
