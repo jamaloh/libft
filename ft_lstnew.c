@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/04 13:47:11 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 18:45:08 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 13:38:06 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
 
-	if (!content)
-		return (NULL);
 	node = malloc(sizeof(t_list));
 	if (!node)
 		return (NULL);

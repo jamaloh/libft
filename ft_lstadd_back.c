@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/04 13:50:04 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 15:31:24 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 13:47:57 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,15 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
+	t_list	*last;
+
 	if (!lst || !new)
 		return ;
-	ft_lstlast(*lst);
-	new->next = *lst;
-	*lst = new;
+	if (*lst == NULL)
+		*lst = new;
+	else
+	{
+		last = ft_lstlast(*lst);
+		last->next = new;
+	}
 }
