@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 11:31:51 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 18:35:08 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 10:29:10 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%s\n", calloc(5, 5));
-// 	printf("%s\n", ft_calloc(5, 5));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 10:52:58 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 18:38:32 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 10:29:35 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,3 @@ int	ft_isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%d\n", ft_isdigit("1"));
-// 	return (0);
-// }

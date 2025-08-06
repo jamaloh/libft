@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 14:04:36 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/04 18:40:06 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 10:30:58 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,11 +71,3 @@ char	*ft_itoa(int n)
 	fill_res(i, result, num);
 	return (result);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%s\n", ft_itoa(-01234567));
-// 	return (0);
-// }
