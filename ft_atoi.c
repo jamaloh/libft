@@ -6,7 +6,7 @@
 /*   By: jalosta- <jalosta-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 10:19:48 by jalosta-          #+#    #+#             */
-/*   Updated: 2025/08/06 12:36:16 by jalosta-         ###   ########.fr       */
+/*   Updated: 2025/08/06 14:41:26 by jalosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /*	discard leading whitespace characters */
 /*	handle sign of string and return integer with corresponding sign */
 /*	for each digit in str; expand places of integer and demote value
- *	for correct value until non-digit character reached 
+ *	for correct value until non-digit character reached
  */
 
 #include "libft.h"
@@ -41,6 +41,7 @@ int	ft_atoi(const char *str)
 			sign = -sign;
 		i++;
 	}
+	result = 0;
 	while (ft_isdigit(str[i]))
 	{
 		result = result * 10 + (str[i] - '0');
